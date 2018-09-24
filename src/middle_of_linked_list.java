@@ -12,7 +12,7 @@ public class middle_of_linked_list {
             ListNode ptr2=head;
             while(ptr2.next != null){
                 ptr1 = ptr1.next;
-                if(ptr2.next != null && ptr2.next.next !=null){
+                if(ptr2.next.next !=null){
                     ptr2 = ptr2.next.next;
                 }else{
                     ptr2 = ptr2.next;
